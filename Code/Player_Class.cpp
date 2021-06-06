@@ -3,7 +3,7 @@
 
 using namespace std;
 
-Class Class_definition() {
+Class Class_definition_player() {
 public: 
 
     int Player_ID;
