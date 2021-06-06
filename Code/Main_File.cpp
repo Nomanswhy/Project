@@ -21,7 +21,7 @@ int main() {
 
     for (int i = 0; i < Number_of_players ; i++){
 
-        Class_definition_player Player[i];  
+        Player_Class Player[i];  
 
         Player.Player_Name = Player_Name[i];
         Player.Player_Rank = Player_Rank[i];
