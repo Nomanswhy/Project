@@ -1,5 +1,8 @@
-#ifndef PLAYER
-#define PLAYER
+#ifndef PLAYER_CLASS
+#define PLAYER_CLASS
+
+#include <string>
+using namespace std;
 
 class Player_Class {
 public: 

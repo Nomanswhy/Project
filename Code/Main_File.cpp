@@ -13,7 +13,7 @@ int main() {
 
     int Players_ID[Number_of_players]; 
 
-    for (i = 0; i < Number_of_players; i++){
+    for (int i = 0; i < Number_of_players; i++){
 
         Players_ID[i] += i;
 
@@ -23,9 +23,9 @@ int main() {
 
         Player_Class Player[i];  
 
-        Player.Player_Name = Player_Name[i];
-        Player.Player_Rank = Player_Rank[i];
-        Player.Player_ID = Player_ID[i];
+        Player[i].Player_Name = Player_Name[i];
+        Player[i].Player_Rank = Player_Rank[i];
+        Player[i].Player_ID = Player_ID[i];
         
 
         cout << "Players name is > " << Player_Name[i] << endl;
